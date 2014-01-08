@@ -1,2 +1,2 @@
-export NEWSITENAME = "mysite";
-export NEWDBNAME = "mydb" ;
+export NEWSITENAME = "sandbox";
+export NEWDBNAME = "sandbox" ;
