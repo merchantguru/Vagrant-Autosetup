@@ -16,9 +16,9 @@ then
 	echo "Installing WordPress for sandbox using WP CLI"
 	mkdir htdocs
 	cd htdocs
-	wp core download 
-	wp core config --dbname="sandbox" --dbuser=wp --dbpass=wp --dbhost="localhost"
-	wp core install --url="sandbox.dev" --title="sandbox" --admin_user=admin --admin_password=password --admin_email=demo@example.com
+	wp core download --allow-root
+	wp core config --dbname="vvv_demo_1" --dbuser=wp --dbpass=wp --dbhost="localhost" --allow-root
+	wp core install --url=vvv-demo-1.dev --title="VVV Bootstrap Demo 1" --admin_user=admin --admin_password=password --admin_email=demo@example.com --allow-root
 	cd ..
 fi
 
